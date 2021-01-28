@@ -11,24 +11,16 @@ public class GameManager : MonoBehaviour
 
     [Header("Prices")]
     //Total coin prices
-    public float coinsPerClickPrice;
-    public float coinsPerSecondPrice;
 
     [Header("Price multipliers")]
     //Price multipliers (e.g. x1.2 etc..)
-    public float multiplierCoinsPerClickPrice;
-    public float multiplierCoinsPerSecondPrice;
 
     [Header("Coin Multiplier values")]
     //Total multiplier values
-    public float multiplierCoinsPerClick;
-    public float multiplierCoinsPerSecond;
 
     [Header("Base coin multiplier values")]
     //Not needed
     // Here we can set the multiplier of the multiplier
-    public float baseMultiplierCoinsPerClick;
-    public float baseMultiplierCoinsPerSecond;
 
     [Header("Text objects")]
     //UI stuff
@@ -43,8 +35,6 @@ public class GameManager : MonoBehaviour
 
     [Header("Timer")]
     //Total timer and the click interval
-    private float timer = 0;
-    private float timerInterval = 1;
 
     [Header("Colors")]
     //Colors to show depending on current coin state
